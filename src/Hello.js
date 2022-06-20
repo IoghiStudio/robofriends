@@ -1,5 +1,5 @@
 import React from "react";
-import "./Hello.css";
+import "./hello.css";
 
 class Hello extends React.Component {
   render() {
@@ -7,6 +7,7 @@ class Hello extends React.Component {
       <div className="f1 tc">
         <h1 className="title">I love pizza</h1>
         <p>Who does not love pizza....</p>
+        <p>{this.props.greeting}</p>
       </div>
     )
   }
