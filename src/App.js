@@ -15,7 +15,7 @@ class App  extends React.Component {
     return(
       <div className="tc">
         <SearchBox />
-        <CardList />
+        <CardList robots ={robots} />
       </div>
     )
   }
