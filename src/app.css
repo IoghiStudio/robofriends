@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'hotdogs roughdemo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('hotdogs roughdemo'), url('Hotdogs-MVlGB.woff') format('woff');
+  }
+
+  h1 {
+    font-family: 'hotdogs roughdemo';
+    src: local('hotdogs roughdemo'), url('./Hotdogs-MVlGB.woff') format('woff');
+    font-size: 4rem;
+  }
+  
