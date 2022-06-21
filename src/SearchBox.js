@@ -5,7 +5,12 @@ class SearchBox extends React.Component {
     return(
       <div className="pa2">
         <h1>Robofriends</h1>
-        <input className="pa3 ba b--green bg-lightest-blue" type="search" placeholder="search robots" ></input>
+        <input 
+          className="pa3 ba b--green bg-lightest-blue" 
+          type="search" 
+          placeholder="search robots"
+          onChange={this.props.searchChange}
+        />
       </div>
     )
   }
