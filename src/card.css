@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Kosin Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Kosin Sans Regular'), url('KosinSans-OV1Ed.woff') format('woff');
+  }
+
+.textFont {
+  font-family: 'Kosin Sans Regular';
+  src: local('Kosin Sans Regular'), url('KosinSans-OV1Ed.woff') format('woff');
+}

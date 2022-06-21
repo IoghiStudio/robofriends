@@ -9,5 +9,7 @@
     font-family: 'hotdogs roughdemo';
     src: local('hotdogs roughdemo'), url('./Hotdogs-MVlGB.woff') format('woff');
     font-size: 4rem;
+    font-weight: 200;
+    color: rgb(216, 88, 29);
   }
   
