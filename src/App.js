@@ -29,10 +29,8 @@ class App  extends React.Component {
     const filteredRobots = robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchfield);
     });
-      if(this.state.robots.length === 0) {
-        return <h1 className="tc">Loading</h1>
-      } else {
-        return(
+      return robots.length === 0 ?
+        <h1 className="tc">Loading</h1> :
           <div className="tc">
             <h1>RoboFriends</h1>
             <SearchBox searchChange={this.onSearchChange} />
@@ -40,9 +38,8 @@ class App  extends React.Component {
               <CardList robots ={filteredRobots} />
             </Scroll>
           </div>
-        )
       }
-  }
-}
+    }
+
 
 export default App;
